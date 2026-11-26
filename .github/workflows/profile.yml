@@ -1,0 +1,24 @@
+name: profile
+on:
+  schedule:
+    - cron: "41 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write   # commit status.svg and README.md back to this repository
+concurrency:
+  group: profile
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: Rebuild the card and the table
+        # one GET to the status site; refuses (exit 1) when its data is stale or has more than 3 failed API calls, so the last good card stays
+        run: python3 tools/profile.py
+      - name: Commit when something changed
+        run: |
+          git add status.svg README.md
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git -c user.name=undecuple -c user.email=125844332+undecuple@users.noreply.github.com commit -q -m "Status update $(date -u +%F)"
+          git push
