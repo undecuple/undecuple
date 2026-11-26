@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Rewrite status.svg and the table block in README.md from the status site's status.json.
+"""Rewrite status.svg from the status site's status.json.
 
 One GET to https://undecuple.github.io/me/status.json (no token, no other host). Refuses to change anything when the file is
 missing, malformed, older than 6 hours or reports more than 3 failed API calls, so a bad run keeps the last good card.
 Usage: python3 tools/profile.py [STATUS_JSON_URL_OR_PATH]   (default: the live site)
-Writes status.svg and README.md in the current directory. Exit 0: written or unchanged. Exit 1: refused.
+Writes status.svg in the current directory. Exit 0: written or unchanged. Exit 1: refused.
 """
 import hashlib
 import json
@@ -95,15 +95,8 @@ def svg(user, gen, rows):
         out += [t(20, y, name if len(name) <= 26 else name[:25] + "\u2026", "#9f9e99"),
                 f'<rect x="300" y="{y - 9}" width="9" height="9" fill="{COLOR[ci]}"/>',
                 t(315, y, ci, COLOR[ci]), t(380, y, pushed, "#7a837c"), t(470, y, rel, "#7a837c"), t(w - 20, y, str(stars), "#9f9e99", anchor="end")]
-    out += [t(20, h - 14, f"generated {gen:%Y-%m-%d %H:%M} UTC \u00b7 unofficial fan work", "#7a837c", 10), "</svg>", ""]
+    out += [t(20, h - 14, f"generated {gen:%Y-%m-%d %H:%M} UTC", "#7a837c", 10), "</svg>", ""]
     return "\n".join(out)
-
-
-def table(user, rows):
-    lines = ["| repository | ci | last push | release | stars |", "|---|---|---|---|---|"]
-    for name, ci, pushed, rel, stars in rows:
-        lines.append(f"| [{name}](https://github.com/{user}/{name}) | {ci} | {pushed} | {rel} | {stars} |")
-    return "\n".join(lines)
 
 
 def main():
@@ -122,17 +115,9 @@ def main():
                 return
     except OSError:
         pass
-    block = f"<!-- status:start -->\n{table(user, rows)}\n<!-- status:end -->"
-    readme = open("README.md", encoding="utf-8").read()
-    if not re.search(r"<!-- status:start -->.*?<!-- status:end -->", readme, re.S):
-        fail("README.md has no status block")
-    readme = re.sub(r"<!-- status:start -->.*?<!-- status:end -->", lambda _: block, readme, flags=re.S)
-    readme = re.sub(r"Generated \d{4}-\d\d-\d\d \d\d:\d\d UTC", f"Generated {gen:%Y-%m-%d %H:%M} UTC", readme)
     with open("status.svg", "w", encoding="utf-8", newline="\n") as f:
         f.write(new_svg)
-    with open("README.md", "w", encoding="utf-8", newline="\n") as f:
-        f.write(readme)
-    print(f"wrote {len(rows)} repositories ({len(rows[:ROWS])} on the card)")
+    print(f"wrote status.svg: {len(rows[:ROWS])} of {len(rows)} repositories on the card")
 
 
 if __name__ == "__main__":
