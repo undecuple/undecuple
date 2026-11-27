@@ -1,5 +1,5 @@
-<svg data-digest="683cabe2b72aa895" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 328" width="1280" height="656" role="img" aria-labelledby="t">
-<title id="t">Status of undecuple public repositories, generated 2026-11-27 09:44 UTC</title>
+<svg data-digest="c3c5b4e5698616db" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 328" width="1280" height="656" role="img" aria-labelledby="t">
+<title id="t">Status of undecuple public repositories, generated 2026-11-27 19:30 UTC</title>
 <rect width="640" height="328" fill="#0c0d0e"/>
 <rect x="3" y="3" width="634" height="322" fill="none" stroke="#554a62" stroke-width="2"/>
 <text x="20" y="32" fill="#8288a0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="600" text-anchor="start">UNDECUPLE // STATUS</text>
@@ -9,54 +9,54 @@
 <text x="380" y="54" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="400" text-anchor="start">PUSH</text>
 <text x="470" y="54" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="400" text-anchor="start">RELEASE</text>
 <text x="620" y="54" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="400" text-anchor="end">STARS</text>
-<text x="20" y="76" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">project-pyrrhus</text>
+<text x="20" y="76" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">gitfurl</text>
 <rect x="300" y="67" width="9" height="9" fill="#a7d8b0"/>
 <text x="315" y="76" fill="#a7d8b0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">ok</text>
 <text x="380" y="76" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">2026-11-27</text>
-<text x="470" y="76" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">v0.1.13</text>
-<text x="620" y="76" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">172</text>
-<text x="20" y="100" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">re-psn</text>
+<text x="470" y="76" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">v1.4.0</text>
+<text x="620" y="76" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">0</text>
+<text x="20" y="100" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">ps3rc-feed</text>
 <rect x="300" y="91" width="9" height="9" fill="#a7d8b0"/>
 <text x="315" y="100" fill="#a7d8b0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">ok</text>
 <text x="380" y="100" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">2026-11-27</text>
-<text x="470" y="100" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">v0.9.0</text>
-<text x="620" y="100" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">5</text>
-<text x="20" y="124" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">agentVIEW</text>
+<text x="470" y="100" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">-</text>
+<text x="620" y="100" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">2</text>
+<text x="20" y="124" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">project-pyrrhus</text>
 <rect x="300" y="115" width="9" height="9" fill="#a7d8b0"/>
 <text x="315" y="124" fill="#a7d8b0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">ok</text>
 <text x="380" y="124" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">2026-11-27</text>
-<text x="470" y="124" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">-</text>
-<text x="620" y="124" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">1</text>
-<text x="20" y="148" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">ps3rc-feed</text>
-<rect x="300" y="139" width="9" height="9" fill="#a7d8b0"/>
-<text x="315" y="148" fill="#a7d8b0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">ok</text>
+<text x="470" y="124" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">v0.1.13</text>
+<text x="620" y="124" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">172</text>
+<text x="20" y="148" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">undecuple</text>
+<rect x="300" y="139" width="9" height="9" fill="#7a837c"/>
+<text x="315" y="148" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">none</text>
 <text x="380" y="148" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">2026-11-27</text>
 <text x="470" y="148" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">-</text>
-<text x="620" y="148" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">2</text>
-<text x="20" y="172" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">undecuple</text>
-<rect x="300" y="163" width="9" height="9" fill="#7a837c"/>
-<text x="315" y="172" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">none</text>
+<text x="620" y="148" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">0</text>
+<text x="20" y="172" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">re-psn</text>
+<rect x="300" y="163" width="9" height="9" fill="#a7d8b0"/>
+<text x="315" y="172" fill="#a7d8b0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">ok</text>
 <text x="380" y="172" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">2026-11-27</text>
-<text x="470" y="172" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">-</text>
-<text x="620" y="172" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">0</text>
-<text x="20" y="196" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">me</text>
-<rect x="300" y="187" width="9" height="9" fill="#997e95"/>
-<text x="315" y="196" fill="#997e95" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">wait</text>
+<text x="470" y="172" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">v0.9.0</text>
+<text x="620" y="172" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">5</text>
+<text x="20" y="196" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">agentVIEW</text>
+<rect x="300" y="187" width="9" height="9" fill="#a7d8b0"/>
+<text x="315" y="196" fill="#a7d8b0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">ok</text>
 <text x="380" y="196" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">2026-11-27</text>
 <text x="470" y="196" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">-</text>
 <text x="620" y="196" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">1</text>
-<text x="20" y="220" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">qwarks-awakening</text>
-<rect x="300" y="211" width="9" height="9" fill="#a7d8b0"/>
-<text x="315" y="220" fill="#a7d8b0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">ok</text>
-<text x="380" y="220" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">2026-11-26</text>
-<text x="470" y="220" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">launcher-v0.4.1</text>
-<text x="620" y="220" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">31</text>
-<text x="20" y="244" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">gitfurl</text>
+<text x="20" y="220" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">me</text>
+<rect x="300" y="211" width="9" height="9" fill="#997e95"/>
+<text x="315" y="220" fill="#997e95" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">wait</text>
+<text x="380" y="220" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">2026-11-27</text>
+<text x="470" y="220" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">-</text>
+<text x="620" y="220" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">1</text>
+<text x="20" y="244" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">qwarks-awakening</text>
 <rect x="300" y="235" width="9" height="9" fill="#a7d8b0"/>
 <text x="315" y="244" fill="#a7d8b0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">ok</text>
 <text x="380" y="244" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">2026-11-26</text>
-<text x="470" y="244" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">v1.4.0</text>
-<text x="620" y="244" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">0</text>
+<text x="470" y="244" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">launcher-v0.4.1</text>
+<text x="620" y="244" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">31</text>
 <text x="20" y="268" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">insaniquarium-remastered</text>
 <rect x="300" y="259" width="9" height="9" fill="#a7d8b0"/>
 <text x="315" y="268" fill="#a7d8b0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">ok</text>
@@ -69,5 +69,5 @@
 <text x="380" y="292" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">2026-11-26</text>
 <text x="470" y="292" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="start">v0.1.0</text>
 <text x="620" y="292" fill="#9f9e99" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="400" text-anchor="end">1</text>
-<text x="20" y="314" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="400" text-anchor="start">generated 2026-11-27 09:44 UTC</text>
+<text x="20" y="314" fill="#7a837c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="400" text-anchor="start">generated 2026-11-27 19:30 UTC</text>
 </svg>
